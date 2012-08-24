@@ -1,4 +1,3 @@
-# TheWurde WebService
+# WebMyService
 
-Contains The website's internal API as well as
-the database. --
+A Framework and Library to transform your database schema to a JSON-RPC 2.0 complaint Web Service 
