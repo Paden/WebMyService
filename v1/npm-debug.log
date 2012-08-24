@@ -1,0 +1,1190 @@
+info it worked if it ends with ok
+verbose cli [ 'node',
+verbose cli   '/usr/local/bin/npm',
+verbose cli   'install',
+verbose cli   '-g',
+verbose cli   'mongoose' ]
+info using npm@1.0.106
+info using node@v0.4.9
+verbose config file /home/oscar/.npmrc
+verbose config file /usr/local/etc/npmrc
+verbose config file /usr/local/lib/node_modules/npm/npmrc
+silly exec /usr/local/bin/node "/usr/local/lib/node_modules/npm/bin/npm-get-uid-gid.js" "nobody" 1001
+silly spawning [ '/usr/local/bin/node',
+silly spawning   [ '/usr/local/lib/node_modules/npm/bin/npm-get-uid-gid.js',
+silly spawning     'nobody',
+silly spawning     1001 ],
+silly spawning   null ]
+silly output from getuid/gid {"uid":65534,"gid":1001}
+silly output from getuid/gid 
+verbose into /usr/local/lib [ 'mongoose' ]
+verbose cache add mongoose
+verbose cache add [ 'mongoose', null ]
+silly cache add: name, spec, args [ undefined, 'mongoose', [ 'mongoose', null ] ]
+verbose parsed url { pathname: 'mongoose', href: 'mongoose' }
+info addNamed [ 'mongoose', '' ]
+verbose addNamed [ null, '' ]
+verbose GET mongoose
+verbose raw, before any munging mongoose
+verbose url resolving [ 'https://registry.npmjs.org/', './mongoose' ]
+verbose url resolved https://registry.npmjs.org/mongoose
+verbose etag "4AM7ZL1XE38LB7OIJD42VEKFZ"
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"4AM7ZL1XE38LB7OIJD42VEKFZ"',
+silly get cb     date: 'Wed, 04 Apr 2012 23:55:28 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag mongoose from cache
+verbose GET mongoose/2.5.13
+verbose raw, before any munging mongoose/2.5.13
+verbose url resolving [ 'https://registry.npmjs.org/', './mongoose/2.5.13' ]
+verbose url resolved https://registry.npmjs.org/mongoose/2.5.13
+verbose etag "4AM7ZL1XE38LB7OIJD42VEKFZ"
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"4AM7ZL1XE38LB7OIJD42VEKFZ"',
+silly get cb     date: 'Wed, 04 Apr 2012 23:55:28 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag mongoose/2.5.13 from cache
+verbose bin dist [ '0.4-ares1.7.4-ev4.4-openssl1.0.0e-v83.1.8.25-linux-3.0.0-12-virtual',
+verbose bin dist   { shasum: '357d5169cc93dc236edaf95619fe7fd6bc5eb373',
+verbose bin dist     tarball: 'http://registry.npmjs.org/mongoose/-/mongoose-2.5.13.tgz' } ]
+silly testEngine { name: 'mongoose',
+silly testEngine   description: 'Mongoose MongoDB ODM',
+silly testEngine   version: '2.5.13',
+silly testEngine   author: 
+silly testEngine    { name: 'Guillermo Rauch',
+silly testEngine      email: 'guillermo@learnboost.com' },
+silly testEngine   keywords: 
+silly testEngine    [ 'mongodb',
+silly testEngine      'mongoose',
+silly testEngine      'orm',
+silly testEngine      'data',
+silly testEngine      'datastore',
+silly testEngine      'nosql',
+silly testEngine      'odm',
+silly testEngine      'sql' ],
+silly testEngine   dependencies: { hooks: '0.2.0', mongodb: '0.9.9-7' },
+silly testEngine   devDependencies: 
+silly testEngine    { should: '0.2.1',
+silly testEngine      gleak: '0.2.1',
+silly testEngine      'cli-table': '0.0.1' },
+silly testEngine   directories: { lib: './lib/mongoose' },
+silly testEngine   scripts: { test: 'make test' },
+silly testEngine   main: './index.js',
+silly testEngine   engines: { node: '>= 0.4.0' },
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/LearnBoost/mongoose.git' },
+silly testEngine   _id: 'mongoose@2.5.13',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.4.9',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /home/oscar/.npm/mongoose/2.5.13/package/package.json
+verbose loadDefaults mongoose@2.5.13
+silly resolved [ { name: 'mongoose',
+silly resolved     description: 'Mongoose MongoDB ODM',
+silly resolved     version: '2.5.13',
+silly resolved     author: 
+silly resolved      { name: 'Guillermo Rauch',
+silly resolved        email: 'guillermo@learnboost.com' },
+silly resolved     keywords: 
+silly resolved      [ 'mongodb',
+silly resolved        'mongoose',
+silly resolved        'orm',
+silly resolved        'data',
+silly resolved        'datastore',
+silly resolved        'nosql',
+silly resolved        'odm',
+silly resolved        'sql' ],
+silly resolved     dependencies: { hooks: '0.2.0', mongodb: '0.9.9-7' },
+silly resolved     devDependencies: 
+silly resolved      { should: '0.2.1',
+silly resolved        gleak: '0.2.1',
+silly resolved        'cli-table': '0.0.1' },
+silly resolved     directories: { lib: './lib/mongoose' },
+silly resolved     scripts: { test: 'make test' },
+silly resolved     main: './index.js',
+silly resolved     engines: { node: '>= 0.4.0' },
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/LearnBoost/mongoose.git' },
+silly resolved     _id: 'mongoose@2.5.13',
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.0.106',
+silly resolved     _nodeVersion: 'v0.4.9',
+silly resolved     _defaultsLoaded: true } ]
+info into /usr/local/lib mongoose@2.5.13
+info installOne mongoose@2.5.13
+info unbuild /usr/local/lib/node_modules/mongoose
+silly testEngine { name: 'mongoose',
+silly testEngine   description: 'Mongoose MongoDB ODM',
+silly testEngine   version: '2.4.1',
+silly testEngine   author: 
+silly testEngine    { name: 'Guillermo Rauch',
+silly testEngine      email: 'guillermo@learnboost.com' },
+silly testEngine   keywords: 
+silly testEngine    [ 'mongodb',
+silly testEngine      'mongoose',
+silly testEngine      'orm',
+silly testEngine      'data',
+silly testEngine      'datastore',
+silly testEngine      'nosql' ],
+silly testEngine   dependencies: 
+silly testEngine    { hooks: '0.1.9',
+silly testEngine      mongodb: '0.9.7-1.4',
+silly testEngine      colors: '0.5.1' },
+silly testEngine   devDependencies: { should: '0.2.1', gleak: '0.2.1' },
+silly testEngine   directories: { lib: './lib/mongoose' },
+silly testEngine   scripts: { test: 'make test' },
+silly testEngine   main: './index.js',
+silly testEngine   engines: { node: '>= 0.4.0' },
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/LearnBoost/mongoose.git' },
+silly testEngine   _id: 'mongoose@2.4.1',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.4.9',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /usr/local/lib/node_modules/mongoose/package.json
+verbose loadDefaults mongoose@2.4.1
+info preuninstall mongoose@2.4.1
+info uninstall mongoose@2.4.1
+verbose unbuild mongoose@2.4.1 [ true,
+verbose unbuild mongoose@2.4.1   '/usr/local/lib/node_modules',
+verbose unbuild mongoose@2.4.1   '/usr/local/lib/node_modules' ]
+info postuninstall mongoose@2.4.1
+verbose from cache /home/oscar/.npm/mongoose/2.5.13/package/package.json
+verbose mkdir (expected) error ENOENT, No such file or directory '/usr/local/lib/node_modules/___mongoose.npm'
+verbose mkdir done: /usr/local/lib/node_modules/___mongoose.npm 755
+verbose unpack_ uid, gid [ 65534, 1001 ]
+verbose unpackTarget /usr/local/lib/node_modules/mongoose
+silly gunzTarPerm modes [ '755', '644' ]
+silly spawning [ 'tar',
+silly spawning   [ '-zmvxpf',
+silly spawning     '/home/oscar/.npm/mongoose/2.5.13/package.tgz',
+silly spawning     '-o' ],
+silly spawning   '/usr/local/lib/node_modules/___mongoose.npm' ]
+silly tar out package/index.js
+silly tar out package/.travis.yml
+silly tar out package/package.json
+silly tar out package/README.md
+silly tar out package/.npmignore
+silly tar out package/History.md
+silly tar out package/Makefile
+silly tar out package/benchmarks/index.js
+silly tar out package/benchmarks/mem.js
+silly tar out package/benchmarks/clone.js
+silly tar out package/docs/errors.md
+silly tar out package/docs/migration-guide.md
+silly tar out package/docs/plugins.md
+silly tar out package/docs/methods-statics.md
+silly tar out package/docs/finding-documents.md
+silly tar out package/docs/schematypes.md
+silly tar out package/docs/validation.md
+silly tar out package/docs/querystream.md
+silly tar out package/docs/virtuals.md
+silly tar out package/docs/query.md
+silly tar out package/docs/model-definition.md
+silly tar out package/docs/embedded-documents.md
+silly tar out package/docs/middleware.md
+silly tar out package/docs/indexes.md
+silly tar out package/docs/populate.md
+silly tar out package/docs/defaults.md
+silly tar out package/docs/getters-setters.md
+silly tar out package/examples/schema.js
+silly tar out package/test/collection.test.js
+silly tar out package/test/types.documentarray.test.js
+silly tar out package/test/types.number.test.js
+silly tar out package/test/query.test.js
+silly tar out package/test/common.js
+silly tar out package/test/model.ref.test.js
+silly tar out package/test/document.strict.test.js
+silly tar out package/test/types.buffer.test.js
+silly tar out package/test/utils.test.js
+silly tar out package/test/types.array.test.js
+silly tar out package/test/zzlast.test.js
+silly tar out package/test/crash.test.js
+silly tar out package/test/schema.test.js
+silly tar out package/test/model.stream.test.js
+silly tar out package/test/model.test.js
+silly tar out package/test/promise.test.js
+silly tar out package/test/dropdb.js
+silly tar out package/test/model.querying.test.js
+silly tar out package/test/model.update.test.js
+silly tar out package/test/document.test.js
+silly tar out package/test/connection.test.js
+silly tar out package/test/shard.test.js
+silly tar out package/test/schema.onthefly.test.js
+silly tar out package/test/types.document.test.js
+silly tar out package/test/index.test.js
+silly tar out package/test/namedscope.test.js
+silly tar out package/test/drivers/node-mongodb-native/collection.test.js
+silly tar out package/lib/document.js
+silly tar out package/lib/index.js
+silly tar out package/lib/.query.js.swo
+silly tar out package/lib/.document.js.swn
+silly tar out package/lib/error.js
+silly tar out package/lib/promise.js
+silly tar out package/lib/schema.js
+silly tar out package/lib/.query.js.swm
+silly tar out package/lib/.document.js.swm
+silly tar out package/lib/querystream.js
+silly tar out package/lib/.document.js.swo
+silly tar out package/lib/virtualtype.js
+silly tar out package/lib/.document.js.swl
+silly tar out package/lib/namedscope.js
+silly tar out package/lib/connection.js
+silly tar out package/lib/collection.js
+silly tar out package/lib/schematype.js
+silly tar out package/lib/.query.js.swn
+silly tar out package/lib/.model.js.swo
+silly tar out package/lib/.utils.js.swo
+silly tar out package/lib/statemachine.js
+silly tar out package/lib/.document.js.swk
+silly tar out package/lib/.model.js.swm
+silly tar out package/lib/schemadefault.js
+silly tar out package/lib/model.js
+silly tar out package/lib/utils.js
+silly tar out package/lib/.model.js.swn
+silly tar out package/lib/query.js
+silly tar out package/lib/schema/string.js
+silly tar out package/lib/schema/index.js
+silly tar out package/lib/schema/array.js
+silly tar out package/lib/schema/number.js
+silly tar out package/lib/schema/boolean.js
+silly tar out package/lib/schema/documentarray.js
+silly tar out package/lib/schema/buffer.js
+silly tar out package/lib/schema/objectid.js
+silly tar out package/lib/schema/mixed.js
+silly tar out package/lib/schema/.objectid.js.swo
+silly tar out package/lib/schema/date.js
+silly tar out package/lib/types/index.js
+silly tar out package/lib/types/array.js
+silly tar out package/lib/types/number.js
+silly tar out package/lib/types/embedded.js
+silly tar out package/lib/types/documentarray.js
+silly tar out package/lib/types/buffer.js
+silly tar out package/lib/types/objectid.js
+silly tar out package/lib/drivers/node-mongodb-native/connection.js
+silly tar out package/lib/drivers/node-mongodb-native/collection.js
+silly tar out package/lib/drivers/node-mongodb-native/.collection.js.swo
+silly tar out package/lib/drivers/node-mongodb-native/objectid.js
+silly tar out package/lib/drivers/node-mongodb-native/binary.js
+silly tar out package/support/expresso/package.json
+silly tar out package/support/expresso/.npmignore
+silly tar out package/support/expresso/Readme.md
+silly tar out package/support/expresso/.gitmodules
+silly tar out package/support/expresso/History.md
+silly tar out package/support/expresso/Makefile
+silly tar out package/support/expresso/lib/foo.js
+silly tar out package/support/expresso/lib/bar.js
+silly tar out package/support/expresso/bin/expresso
+silly tar out package/support/expresso/test/assert.test.js
+silly tar out package/support/expresso/test/http.test.js
+silly tar out package/support/expresso/test/bar.test.js
+silly tar out package/support/expresso/test/async.test.js
+silly tar out package/support/expresso/test/foo.test.js
+silly tar out package/support/expresso/test/serial/http.test.js
+silly tar out package/support/expresso/test/serial/async.test.js
+silly tar out package/support/expresso/docs/api.html
+silly tar out package/support/expresso/docs/index.md
+silly tar out package/support/expresso/docs/index.html
+silly tar out package/support/expresso/docs/layout/foot.html
+silly tar out package/support/expresso/docs/layout/head.html
+silly tar exit 0
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/.travis.yml
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/package.json
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/index.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/README.md
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/History.md
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/.npmignore
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/Makefile
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/benchmarks
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/benchmarks/index.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/benchmarks/mem.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/benchmarks/clone.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/docs
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/docs/migration-guide.md
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/docs/plugins.md
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/docs/errors.md
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/docs/methods-statics.md
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/docs/finding-documents.md
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/docs/schematypes.md
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/docs/validation.md
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/docs/querystream.md
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/docs/virtuals.md
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/docs/query.md
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/docs/model-definition.md
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/docs/embedded-documents.md
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/docs/middleware.md
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/docs/indexes.md
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/docs/populate.md
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/docs/defaults.md
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/docs/getters-setters.md
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/examples
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/examples/schema.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/test
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/test/collection.test.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/test/types.documentarray.test.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/test/types.number.test.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/test/query.test.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/test/document.strict.test.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/test/common.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/test/types.buffer.test.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/test/model.ref.test.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/test/types.array.test.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/test/utils.test.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/test/zzlast.test.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/test/crash.test.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/test/schema.test.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/test/model.stream.test.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/test/model.test.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/test/promise.test.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/test/dropdb.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/test/model.querying.test.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/test/model.update.test.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/test/document.test.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/test/connection.test.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/test/shard.test.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/test/schema.onthefly.test.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/test/types.document.test.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/test/index.test.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/test/namedscope.test.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/test/drivers
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/test/drivers/node-mongodb-native
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/test/drivers/node-mongodb-native/collection.test.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/lib
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/lib/document.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/lib/index.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/lib/.query.js.swo
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/lib/.document.js.swn
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/lib/error.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/lib/promise.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/lib/schema.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/lib/.query.js.swm
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/lib/.document.js.swm
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/lib/querystream.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/lib/.document.js.swo
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/lib/virtualtype.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/lib/.document.js.swl
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/lib/namedscope.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/lib/connection.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/lib/collection.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/lib/schematype.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/lib/.query.js.swn
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/lib/.model.js.swo
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/lib/.utils.js.swo
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/lib/statemachine.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/lib/.document.js.swk
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/lib/.model.js.swm
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/lib/schemadefault.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/lib/model.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/lib/utils.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/lib/.model.js.swn
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/lib/query.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/lib/schema
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/lib/schema/string.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/lib/schema/index.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/lib/schema/array.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/lib/schema/number.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/lib/schema/boolean.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/lib/schema/documentarray.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/lib/schema/buffer.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/lib/schema/objectid.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/lib/schema/mixed.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/lib/schema/.objectid.js.swo
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/lib/schema/date.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/lib/types
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/lib/types/index.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/lib/types/array.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/lib/types/number.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/lib/types/embedded.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/lib/types/documentarray.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/lib/types/buffer.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/lib/types/objectid.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/lib/drivers
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/lib/drivers/node-mongodb-native
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/lib/drivers/node-mongodb-native/collection.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/lib/drivers/node-mongodb-native/.collection.js.swo
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/lib/drivers/node-mongodb-native/objectid.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/lib/drivers/node-mongodb-native/binary.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/lib/drivers/node-mongodb-native/connection.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/support
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/support/expresso
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/support/expresso/package.json
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/support/expresso/.npmignore
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/support/expresso/Readme.md
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/support/expresso/.gitmodules
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/support/expresso/History.md
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/support/expresso/Makefile
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/support/expresso/lib
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/support/expresso/lib/foo.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/support/expresso/lib/bar.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/support/expresso/bin
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/support/expresso/bin/expresso
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/support/expresso/docs
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/support/expresso/docs/api.html
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/support/expresso/docs/index.md
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/support/expresso/docs/index.html
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/support/expresso/docs/layout
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/support/expresso/docs/layout/foot.html
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/support/expresso/docs/layout/head.html
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/support/expresso/test
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/support/expresso/test/assert.test.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/support/expresso/test/http.test.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/support/expresso/test/bar.test.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/support/expresso/test/async.test.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/support/expresso/test/foo.test.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/support/expresso/test/serial
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/support/expresso/test/serial/http.test.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___mongoose.npm/package/support/expresso/test/serial/async.test.js
+verbose gunzed /usr/local/lib/node_modules/___mongoose.npm/package
+verbose rm'ed /usr/local/lib/node_modules/mongoose
+verbose renamed [ '/usr/local/lib/node_modules/___mongoose.npm/package',
+verbose renamed   '/usr/local/lib/node_modules/mongoose' ]
+silly testEngine { name: 'mongoose',
+silly testEngine   description: 'Mongoose MongoDB ODM',
+silly testEngine   version: '2.5.13',
+silly testEngine   author: 
+silly testEngine    { name: 'Guillermo Rauch',
+silly testEngine      email: 'guillermo@learnboost.com' },
+silly testEngine   keywords: 
+silly testEngine    [ 'mongodb',
+silly testEngine      'mongoose',
+silly testEngine      'orm',
+silly testEngine      'data',
+silly testEngine      'datastore',
+silly testEngine      'nosql',
+silly testEngine      'odm',
+silly testEngine      'sql' ],
+silly testEngine   dependencies: { hooks: '0.2.0', mongodb: '0.9.9-7' },
+silly testEngine   devDependencies: 
+silly testEngine    { should: '0.2.1',
+silly testEngine      gleak: '0.2.1',
+silly testEngine      'cli-table': '0.0.1' },
+silly testEngine   directories: { lib: './lib/mongoose' },
+silly testEngine   scripts: { test: 'make test' },
+silly testEngine   main: './index.js',
+silly testEngine   engines: { node: '>= 0.4.0' },
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/LearnBoost/mongoose.git' },
+silly testEngine   _id: 'mongoose@2.5.13',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.4.9',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /usr/local/lib/node_modules/mongoose/package.json
+verbose loadDefaults mongoose@2.5.13
+info preinstall mongoose@2.5.13
+verbose from cache /usr/local/lib/node_modules/mongoose/package.json
+verbose into /usr/local/lib/node_modules/mongoose [ 'hooks@0.2.0', 'mongodb@0.9.9-7' ]
+verbose cache add hooks@0.2.0
+verbose cache add [ 'hooks@0.2.0', null ]
+silly cache add: name, spec, args [ undefined, 'hooks@0.2.0', [ 'hooks@0.2.0', null ] ]
+verbose parsed url { pathname: 'hooks@0.2.0', href: 'hooks@0.2.0' }
+silly cache add: name, spec, args [ 'hooks', '0.2.0', [ 'hooks', '0.2.0' ] ]
+verbose parsed url { pathname: '0.2.0', href: '0.2.0' }
+info addNamed [ 'hooks', '0.2.0' ]
+verbose addNamed [ '0.2.0', '0.2.0' ]
+verbose GET hooks/0.2.0
+verbose raw, before any munging hooks/0.2.0
+verbose url resolving [ 'https://registry.npmjs.org/', './hooks/0.2.0' ]
+verbose url resolved https://registry.npmjs.org/hooks/0.2.0
+verbose etag "3AM736AX1GKJXDUUWEKIC6GAC"
+verbose cache add mongodb@0.9.9-7
+verbose cache add [ 'mongodb@0.9.9-7', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'mongodb@0.9.9-7',
+silly cache add: name, spec, args   [ 'mongodb@0.9.9-7', null ] ]
+verbose parsed url { pathname: 'mongodb@0.9.9-7',
+verbose parsed url   href: 'mongodb@0.9.9-7' }
+silly cache add: name, spec, args [ 'mongodb', '0.9.9-7', [ 'mongodb', '0.9.9-7' ] ]
+verbose parsed url { pathname: '0.9.9-7', href: '0.9.9-7' }
+info addNamed [ 'mongodb', '0.9.9-7' ]
+verbose addNamed [ '0.9.9-7', '0.9.9-7' ]
+verbose GET mongodb/0.9.9-7
+verbose raw, before any munging mongodb/0.9.9-7
+verbose url resolving [ 'https://registry.npmjs.org/', './mongodb/0.9.9-7' ]
+verbose url resolved https://registry.npmjs.org/mongodb/0.9.9-7
+verbose etag "3LJAGAY46TTCM581TYQ9VJWFI"
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"3AM736AX1GKJXDUUWEKIC6GAC"',
+silly get cb     date: 'Wed, 04 Apr 2012 23:55:29 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag hooks/0.2.0 from cache
+verbose bin dist [ '0.4-ares1.7.4-ev4.4-openssl1.0.0e-v83.1.8.25-linux-3.0.0-12-virtual',
+verbose bin dist   { shasum: '0f43df2d3610eebb1e241d8c8b61b954ad858b9e',
+verbose bin dist     tarball: 'http://registry.npmjs.org/hooks/-/hooks-0.2.0.tgz' } ]
+silly testEngine { name: 'hooks',
+silly testEngine   description: 'Adds pre and post hook functionality to your JavaScript methods.',
+silly testEngine   version: '0.2.0',
+silly testEngine   keywords: [ 'node', 'hooks', 'middleware', 'pre', 'post' ],
+silly testEngine   homepage: 'https://github.com/bnoguchi/hooks-js/',
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/bnoguchi/hooks-js.git' },
+silly testEngine   author: 
+silly testEngine    { name: 'Brian Noguchi',
+silly testEngine      email: 'brian.noguchi@gmail.com',
+silly testEngine      url: 'https://github.com/bnoguchi/' },
+silly testEngine   main: './hooks.js',
+silly testEngine   directories: { lib: '.' },
+silly testEngine   scripts: { test: 'make test' },
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: 
+silly testEngine    { expresso: '>=0.7.6',
+silly testEngine      should: '>=0.2.1',
+silly testEngine      underscore: '>=1.1.4' },
+silly testEngine   engines: { node: '>=0.4.0' },
+silly testEngine   licenses: [ 'MIT' ],
+silly testEngine   optionalDependencies: {},
+silly testEngine   _id: 'hooks@0.2.0',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.4.9',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /home/oscar/.npm/hooks/0.2.0/package/package.json
+verbose loadDefaults hooks@0.2.0
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"3LJAGAY46TTCM581TYQ9VJWFI"',
+silly get cb     date: 'Wed, 04 Apr 2012 23:55:29 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag mongodb/0.9.9-7 from cache
+verbose bin dist [ '0.4-ares1.7.4-ev4.4-openssl1.0.0e-v83.1.8.25-linux-3.0.0-12-virtual',
+verbose bin dist   { shasum: '306302df6d149d4d84a4f5d4d2de076362d18d85',
+verbose bin dist     tarball: 'http://registry.npmjs.org/mongodb/-/mongodb-0.9.9-7.tgz' } ]
+silly testEngine { name: 'mongodb',
+silly testEngine   description: 'A node.js driver for MongoDB',
+silly testEngine   keywords: [ 'mongodb', 'mongo', 'driver', 'db' ],
+silly testEngine   version: '0.9.9-7',
+silly testEngine   author: 
+silly testEngine    { name: 'Christian Amor Kvalheim',
+silly testEngine      email: 'christkv@gmail.com' },
+silly testEngine   contributors: 
+silly testEngine    [ { name: 'Aaron Heckmann' },
+silly testEngine      { name: 'Christoph Pojer' },
+silly testEngine      { name: 'Pau Ramon Revilla' },
+silly testEngine      { name: 'Nathan White' },
+silly testEngine      { name: 'Emmerman' },
+silly testEngine      { name: 'Seth LaForge' },
+silly testEngine      { name: 'Boris Filipov' },
+silly testEngine      { name: 'Stefan Schärmeli' },
+silly testEngine      { name: 'Tedde Lundgren' },
+silly testEngine      { name: 'renctan' },
+silly testEngine      { name: 'Sergey Ukustov' },
+silly testEngine      { name: 'Ciaran Jessup' },
+silly testEngine      { name: 'kuno' },
+silly testEngine      { name: 'srimonti' },
+silly testEngine      { name: 'Erik Abele' },
+silly testEngine      { name: 'Pratik Daga' },
+silly testEngine      { name: 'Slobodan Utvic' },
+silly testEngine      { name: 'Kristina Chodorow' },
+silly testEngine      { name: 'Yonathan Randolph' },
+silly testEngine      { name: 'Brian Noguchi' },
+silly testEngine      { name: 'Sam Epstein' },
+silly testEngine      { name: 'James Harrison Fisher' },
+silly testEngine      { name: 'Vladimir Dronnikov' },
+silly testEngine      { name: 'Ben Hockey' },
+silly testEngine      { name: 'Henrik Johansson' },
+silly testEngine      { name: 'Simon Weare' },
+silly testEngine      { name: 'Alex Gorbatchev' },
+silly testEngine      { name: 'Shimon Doodkin' },
+silly testEngine      { name: 'Kyle Mueller' },
+silly testEngine      { name: 'Eran Hammer-Lahav' },
+silly testEngine      { name: 'Marcin Ciszak' },
+silly testEngine      { name: 'François de Metz' },
+silly testEngine      { name: 'Vinay Pulim' },
+silly testEngine      { name: 'nstielau' },
+silly testEngine      { name: 'Adam Wiggins' },
+silly testEngine      { name: 'entrinzikyl' },
+silly testEngine      { name: 'Jeremy Selier' },
+silly testEngine      { name: 'Ian Millington' },
+silly testEngine      { name: 'Public Keating' },
+silly testEngine      { name: 'andrewjstone' },
+silly testEngine      { name: 'Christopher Stott' },
+silly testEngine      { name: 'Corey Jewett' },
+silly testEngine      { name: 'brettkiefer' },
+silly testEngine      { name: 'Rob Holland' },
+silly testEngine      { name: 'Senmiao Liu' },
+silly testEngine      { name: 'heroic' },
+silly testEngine      { name: 'gitfy' },
+silly testEngine      { name: 'Andrew Stone' },
+silly testEngine      { name: 'John Le Drew' } ],
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/christkv/node-mongodb-native.git' },
+silly testEngine   bugs: 
+silly testEngine    { email: 'node-mongodb-native@googlegroups.com',
+silly testEngine      url: 'http://github.com/christkv/node-mongodb-native/issues' },
+silly testEngine   dependencies: { bson: '0.0.4' },
+silly testEngine   devDependencies: 
+silly testEngine    { dox: '0.2.0',
+silly testEngine      'uglify-js': '1.2.5',
+silly testEngine      ejs: '0.6.1',
+silly testEngine      nodeunit: '0.7.3',
+silly testEngine      github3: '>=0.3.0',
+silly testEngine      markdown: '0.3.1',
+silly testEngine      gleak: '0.2.3',
+silly testEngine      step: '0.0.5' },
+silly testEngine   config: { native: false },
+silly testEngine   main: './lib/mongodb/index',
+silly testEngine   directories: { lib: './lib/mongodb' },
+silly testEngine   engines: { node: '>=0.4.0' },
+silly testEngine   scripts: { test: 'make test_pure' },
+silly testEngine   licenses: 
+silly testEngine    [ { type: 'Apache License, Version 2.0',
+silly testEngine        url: 'http://www.apache.org/licenses/LICENSE-2.0' } ],
+silly testEngine   _id: 'mongodb@0.9.9-7',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.4.9',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /home/oscar/.npm/mongodb/0.9.9-7/package/package.json
+verbose loadDefaults mongodb@0.9.9-7
+silly resolved [ { name: 'hooks',
+silly resolved     description: 'Adds pre and post hook functionality to your JavaScript methods.',
+silly resolved     version: '0.2.0',
+silly resolved     keywords: [ 'node', 'hooks', 'middleware', 'pre', 'post' ],
+silly resolved     homepage: 'https://github.com/bnoguchi/hooks-js/',
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/bnoguchi/hooks-js.git' },
+silly resolved     author: 
+silly resolved      { name: 'Brian Noguchi',
+silly resolved        email: 'brian.noguchi@gmail.com',
+silly resolved        url: 'https://github.com/bnoguchi/' },
+silly resolved     main: './hooks.js',
+silly resolved     directories: { lib: '.' },
+silly resolved     scripts: { test: 'make test' },
+silly resolved     dependencies: {},
+silly resolved     devDependencies: 
+silly resolved      { expresso: '>=0.7.6',
+silly resolved        should: '>=0.2.1',
+silly resolved        underscore: '>=1.1.4' },
+silly resolved     engines: { node: '>=0.4.0' },
+silly resolved     licenses: [ 'MIT' ],
+silly resolved     optionalDependencies: {},
+silly resolved     _id: 'hooks@0.2.0',
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.0.106',
+silly resolved     _nodeVersion: 'v0.4.9',
+silly resolved     _defaultsLoaded: true },
+silly resolved   { name: 'mongodb',
+silly resolved     description: 'A node.js driver for MongoDB',
+silly resolved     keywords: [ 'mongodb', 'mongo', 'driver', 'db' ],
+silly resolved     version: '0.9.9-7',
+silly resolved     author: 
+silly resolved      { name: 'Christian Amor Kvalheim',
+silly resolved        email: 'christkv@gmail.com' },
+silly resolved     contributors: 
+silly resolved      [ { name: 'Aaron Heckmann' },
+silly resolved        { name: 'Christoph Pojer' },
+silly resolved        { name: 'Pau Ramon Revilla' },
+silly resolved        { name: 'Nathan White' },
+silly resolved        { name: 'Emmerman' },
+silly resolved        { name: 'Seth LaForge' },
+silly resolved        { name: 'Boris Filipov' },
+silly resolved        { name: 'Stefan Schärmeli' },
+silly resolved        { name: 'Tedde Lundgren' },
+silly resolved        { name: 'renctan' },
+silly resolved        { name: 'Sergey Ukustov' },
+silly resolved        { name: 'Ciaran Jessup' },
+silly resolved        { name: 'kuno' },
+silly resolved        { name: 'srimonti' },
+silly resolved        { name: 'Erik Abele' },
+silly resolved        { name: 'Pratik Daga' },
+silly resolved        { name: 'Slobodan Utvic' },
+silly resolved        { name: 'Kristina Chodorow' },
+silly resolved        { name: 'Yonathan Randolph' },
+silly resolved        { name: 'Brian Noguchi' },
+silly resolved        { name: 'Sam Epstein' },
+silly resolved        { name: 'James Harrison Fisher' },
+silly resolved        { name: 'Vladimir Dronnikov' },
+silly resolved        { name: 'Ben Hockey' },
+silly resolved        { name: 'Henrik Johansson' },
+silly resolved        { name: 'Simon Weare' },
+silly resolved        { name: 'Alex Gorbatchev' },
+silly resolved        { name: 'Shimon Doodkin' },
+silly resolved        { name: 'Kyle Mueller' },
+silly resolved        { name: 'Eran Hammer-Lahav' },
+silly resolved        { name: 'Marcin Ciszak' },
+silly resolved        { name: 'François de Metz' },
+silly resolved        { name: 'Vinay Pulim' },
+silly resolved        { name: 'nstielau' },
+silly resolved        { name: 'Adam Wiggins' },
+silly resolved        { name: 'entrinzikyl' },
+silly resolved        { name: 'Jeremy Selier' },
+silly resolved        { name: 'Ian Millington' },
+silly resolved        { name: 'Public Keating' },
+silly resolved        { name: 'andrewjstone' },
+silly resolved        { name: 'Christopher Stott' },
+silly resolved        { name: 'Corey Jewett' },
+silly resolved        { name: 'brettkiefer' },
+silly resolved        { name: 'Rob Holland' },
+silly resolved        { name: 'Senmiao Liu' },
+silly resolved        { name: 'heroic' },
+silly resolved        { name: 'gitfy' },
+silly resolved        { name: 'Andrew Stone' },
+silly resolved        { name: 'John Le Drew' } ],
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/christkv/node-mongodb-native.git' },
+silly resolved     bugs: 
+silly resolved      { email: 'node-mongodb-native@googlegroups.com',
+silly resolved        url: 'http://github.com/christkv/node-mongodb-native/issues' },
+silly resolved     dependencies: { bson: '0.0.4' },
+silly resolved     devDependencies: 
+silly resolved      { dox: '0.2.0',
+silly resolved        'uglify-js': '1.2.5',
+silly resolved        ejs: '0.6.1',
+silly resolved        nodeunit: '0.7.3',
+silly resolved        github3: '>=0.3.0',
+silly resolved        markdown: '0.3.1',
+silly resolved        gleak: '0.2.3',
+silly resolved        step: '0.0.5' },
+silly resolved     config: { native: false },
+silly resolved     main: './lib/mongodb/index',
+silly resolved     directories: { lib: './lib/mongodb' },
+silly resolved     engines: { node: '>=0.4.0' },
+silly resolved     scripts: { test: 'make test_pure' },
+silly resolved     licenses: 
+silly resolved      [ { type: 'Apache License, Version 2.0',
+silly resolved          url: 'http://www.apache.org/licenses/LICENSE-2.0' } ],
+silly resolved     _id: 'mongodb@0.9.9-7',
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.0.106',
+silly resolved     _nodeVersion: 'v0.4.9',
+silly resolved     _defaultsLoaded: true } ]
+info into /usr/local/lib/node_modules/mongoose hooks@0.2.0
+info into /usr/local/lib/node_modules/mongoose mongodb@0.9.9-7
+info installOne hooks@0.2.0
+info installOne mongodb@0.9.9-7
+info unbuild /usr/local/lib/node_modules/mongoose/node_modules/hooks
+info unbuild /usr/local/lib/node_modules/mongoose/node_modules/mongodb
+verbose from cache /home/oscar/.npm/hooks/0.2.0/package/package.json
+verbose from cache /home/oscar/.npm/mongodb/0.9.9-7/package/package.json
+verbose mkdir (expected) error ENOENT, No such file or directory '/usr/local/lib/node_modules/mongoose/node_modules'
+verbose mkdir (expected) error ENOENT, No such file or directory '/usr/local/lib/node_modules/mongoose/node_modules'
+verbose mkdir (expected) error ENOENT, No such file or directory '/usr/local/lib/node_modules/mongoose/node_modules/___hooks.npm'
+verbose mkdir (expected) error ENOENT, No such file or directory '/usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm'
+verbose mkdir done: /usr/local/lib/node_modules/mongoose/node_modules/___hooks.npm 755
+verbose mkdir done: /usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm 755
+verbose unpack_ uid, gid [ 65534, 1001 ]
+verbose unpackTarget /usr/local/lib/node_modules/mongoose/node_modules/hooks
+silly gunzTarPerm modes [ '755', '644' ]
+silly spawning [ 'tar',
+silly spawning   [ '-zmvxpf',
+silly spawning     '/home/oscar/.npm/hooks/0.2.0/package.tgz',
+silly spawning     '-o' ],
+silly spawning   '/usr/local/lib/node_modules/mongoose/node_modules/___hooks.npm' ]
+verbose unpack_ uid, gid [ 65534, 1001 ]
+verbose unpackTarget /usr/local/lib/node_modules/mongoose/node_modules/mongodb
+silly gunzTarPerm modes [ '755', '644' ]
+silly spawning [ 'tar',
+silly spawning   [ '-zmvxpf',
+silly spawning     '/home/oscar/.npm/mongodb/0.9.9-7/package.tgz',
+silly spawning     '-o' ],
+silly spawning   '/usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm' ]
+silly tar out package/package.json
+silly tar out package/README.md
+silly tar out package/test.js
+silly tar out package/hooks.alt.js
+silly tar out package/hooks.js
+silly tar out package/.npmignore
+silly tar out package/index.js
+silly tar out package/Makefile
+silly tar out package/.travis.yml
+silly tar out package/package.json
+silly tar out package/install.js
+silly tar out package/valgrind.log
+silly tar exit 0
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___hooks.npm/package
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___hooks.npm/package/package.json
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___hooks.npm/package/README.md
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___hooks.npm/package/test.js
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___hooks.npm/package/hooks.js
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___hooks.npm/package/hooks.alt.js
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___hooks.npm/package/.npmignore
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___hooks.npm/package/Makefile
+verbose gunzed /usr/local/lib/node_modules/mongoose/node_modules/___hooks.npm/package
+verbose rm'ed /usr/local/lib/node_modules/mongoose/node_modules/hooks
+verbose renamed [ '/usr/local/lib/node_modules/mongoose/node_modules/___hooks.npm/package',
+verbose renamed   '/usr/local/lib/node_modules/mongoose/node_modules/hooks' ]
+silly testEngine { name: 'hooks',
+silly testEngine   description: 'Adds pre and post hook functionality to your JavaScript methods.',
+silly testEngine   version: '0.2.0',
+silly testEngine   keywords: [ 'node', 'hooks', 'middleware', 'pre', 'post' ],
+silly testEngine   homepage: 'https://github.com/bnoguchi/hooks-js/',
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/bnoguchi/hooks-js.git' },
+silly testEngine   author: 
+silly testEngine    { name: 'Brian Noguchi',
+silly testEngine      email: 'brian.noguchi@gmail.com',
+silly testEngine      url: 'https://github.com/bnoguchi/' },
+silly testEngine   main: './hooks.js',
+silly testEngine   directories: { lib: '.' },
+silly testEngine   scripts: { test: 'make test' },
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: 
+silly testEngine    { expresso: '>=0.7.6',
+silly testEngine      should: '>=0.2.1',
+silly testEngine      underscore: '>=1.1.4' },
+silly testEngine   engines: { node: '>=0.4.0' },
+silly testEngine   licenses: [ 'MIT' ],
+silly testEngine   optionalDependencies: {},
+silly testEngine   _id: 'hooks@0.2.0',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.4.9',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /usr/local/lib/node_modules/mongoose/node_modules/hooks/package.json
+verbose loadDefaults hooks@0.2.0
+info preinstall hooks@0.2.0
+verbose from cache /usr/local/lib/node_modules/mongoose/node_modules/hooks/package.json
+verbose into /usr/local/lib/node_modules/mongoose/node_modules/hooks []
+silly resolved []
+verbose about to build /usr/local/lib/node_modules/mongoose/node_modules/hooks
+info build /usr/local/lib/node_modules/mongoose/node_modules/hooks
+verbose from cache /usr/local/lib/node_modules/mongoose/node_modules/hooks/package.json
+verbose linkStuff [ true,
+verbose linkStuff   '/usr/local/lib/node_modules',
+verbose linkStuff   false,
+verbose linkStuff   '/usr/local/lib/node_modules/mongoose/node_modules' ]
+info linkStuff hooks@0.2.0
+verbose linkBins hooks@0.2.0
+verbose linkMans hooks@0.2.0
+verbose rebuildBundles hooks@0.2.0
+info install hooks@0.2.0
+info postinstall hooks@0.2.0
+verbose installOne cb hooks@0.2.0
+silly tar out package/Makefile
+silly tar out package/external-libs/bson/index.js
+silly tar out package/external-libs/bson/bson.cc
+silly tar out package/external-libs/bson/bson.h
+silly tar out package/external-libs/bson/wscript
+silly tar out package/external-libs/bson/Makefile
+silly tar out package/external-libs/bson/test/test_stackless_bson.js
+silly tar out package/external-libs/bson/test/test_bson.js
+silly tar out package/external-libs/bson/test/test_full_bson.js
+silly tar out package/lib/mongodb/index.js
+silly tar out package/lib/mongodb/admin.js
+silly tar out package/lib/mongodb/collection.js
+silly tar out package/lib/mongodb/db.js
+silly tar out package/lib/mongodb/utils.js
+silly tar out package/lib/mongodb/cursor.js
+silly tar out package/lib/mongodb/cursorstream.js
+silly tar out package/lib/mongodb/commands/get_more_command.js
+silly tar out package/lib/mongodb/commands/kill_cursor_command.js
+silly tar out package/lib/mongodb/commands/query_command.js
+silly tar out package/lib/mongodb/commands/db_command.js
+silly tar out package/lib/mongodb/commands/delete_command.js
+silly tar out package/lib/mongodb/commands/insert_command.js
+silly tar out package/lib/mongodb/commands/base_command.js
+silly tar out package/lib/mongodb/commands/update_command.js
+silly tar out package/lib/mongodb/gridfs/chunk.js
+silly tar out package/lib/mongodb/gridfs/gridstore.js
+silly tar out package/lib/mongodb/gridfs/readstream.js
+silly tar out package/lib/mongodb/gridfs/grid.js
+silly tar out package/lib/mongodb/responses/mongo_reply.js
+silly tar out package/lib/mongodb/connection/connection_utils.js
+silly tar out package/lib/mongodb/connection/repl_set_servers.js
+silly tar out package/lib/mongodb/connection/server.js
+silly tar out package/lib/mongodb/connection/connection_pool.js
+silly tar out package/lib/mongodb/connection/connection.js
+silly tar out package/lib/mongodb/connection/strategies/statistics_strategy.js
+silly tar out package/lib/mongodb/connection/strategies/ping_strategy.js
+silly tar exit 0
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm/package
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm/package/index.js
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm/package/.travis.yml
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm/package/package.json
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm/package/install.js
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm/package/valgrind.log
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm/package/Makefile
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm/package/external-libs
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm/package/external-libs/bson
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm/package/external-libs/bson/index.js
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm/package/external-libs/bson/bson.cc
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm/package/external-libs/bson/bson.h
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm/package/external-libs/bson/wscript
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm/package/external-libs/bson/Makefile
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm/package/external-libs/bson/test
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm/package/external-libs/bson/test/test_stackless_bson.js
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm/package/external-libs/bson/test/test_bson.js
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm/package/external-libs/bson/test/test_full_bson.js
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm/package/lib
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm/package/lib/mongodb
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm/package/lib/mongodb/index.js
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm/package/lib/mongodb/admin.js
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm/package/lib/mongodb/collection.js
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm/package/lib/mongodb/db.js
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm/package/lib/mongodb/utils.js
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm/package/lib/mongodb/cursor.js
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm/package/lib/mongodb/cursorstream.js
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm/package/lib/mongodb/commands
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm/package/lib/mongodb/commands/get_more_command.js
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm/package/lib/mongodb/commands/kill_cursor_command.js
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm/package/lib/mongodb/commands/query_command.js
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm/package/lib/mongodb/commands/delete_command.js
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm/package/lib/mongodb/commands/db_command.js
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm/package/lib/mongodb/commands/insert_command.js
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm/package/lib/mongodb/commands/base_command.js
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm/package/lib/mongodb/commands/update_command.js
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm/package/lib/mongodb/gridfs
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm/package/lib/mongodb/gridfs/chunk.js
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm/package/lib/mongodb/gridfs/gridstore.js
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm/package/lib/mongodb/gridfs/readstream.js
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm/package/lib/mongodb/gridfs/grid.js
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm/package/lib/mongodb/responses
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm/package/lib/mongodb/responses/mongo_reply.js
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm/package/lib/mongodb/connection
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm/package/lib/mongodb/connection/connection_utils.js
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm/package/lib/mongodb/connection/repl_set_servers.js
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm/package/lib/mongodb/connection/connection.js
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm/package/lib/mongodb/connection/server.js
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm/package/lib/mongodb/connection/connection_pool.js
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm/package/lib/mongodb/connection/strategies
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm/package/lib/mongodb/connection/strategies/statistics_strategy.js
+silly asyncMap in gTP /usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm/package/lib/mongodb/connection/strategies/ping_strategy.js
+verbose gunzed /usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm/package
+verbose rm'ed /usr/local/lib/node_modules/mongoose/node_modules/mongodb
+verbose renamed [ '/usr/local/lib/node_modules/mongoose/node_modules/___mongodb.npm/package',
+verbose renamed   '/usr/local/lib/node_modules/mongoose/node_modules/mongodb' ]
+silly testEngine { name: 'mongodb',
+silly testEngine   description: 'A node.js driver for MongoDB',
+silly testEngine   keywords: [ 'mongodb', 'mongo', 'driver', 'db' ],
+silly testEngine   version: '0.9.9-7',
+silly testEngine   author: 
+silly testEngine    { name: 'Christian Amor Kvalheim',
+silly testEngine      email: 'christkv@gmail.com' },
+silly testEngine   contributors: 
+silly testEngine    [ { name: 'Aaron Heckmann' },
+silly testEngine      { name: 'Christoph Pojer' },
+silly testEngine      { name: 'Pau Ramon Revilla' },
+silly testEngine      { name: 'Nathan White' },
+silly testEngine      { name: 'Emmerman' },
+silly testEngine      { name: 'Seth LaForge' },
+silly testEngine      { name: 'Boris Filipov' },
+silly testEngine      { name: 'Stefan Schärmeli' },
+silly testEngine      { name: 'Tedde Lundgren' },
+silly testEngine      { name: 'renctan' },
+silly testEngine      { name: 'Sergey Ukustov' },
+silly testEngine      { name: 'Ciaran Jessup' },
+silly testEngine      { name: 'kuno' },
+silly testEngine      { name: 'srimonti' },
+silly testEngine      { name: 'Erik Abele' },
+silly testEngine      { name: 'Pratik Daga' },
+silly testEngine      { name: 'Slobodan Utvic' },
+silly testEngine      { name: 'Kristina Chodorow' },
+silly testEngine      { name: 'Yonathan Randolph' },
+silly testEngine      { name: 'Brian Noguchi' },
+silly testEngine      { name: 'Sam Epstein' },
+silly testEngine      { name: 'James Harrison Fisher' },
+silly testEngine      { name: 'Vladimir Dronnikov' },
+silly testEngine      { name: 'Ben Hockey' },
+silly testEngine      { name: 'Henrik Johansson' },
+silly testEngine      { name: 'Simon Weare' },
+silly testEngine      { name: 'Alex Gorbatchev' },
+silly testEngine      { name: 'Shimon Doodkin' },
+silly testEngine      { name: 'Kyle Mueller' },
+silly testEngine      { name: 'Eran Hammer-Lahav' },
+silly testEngine      { name: 'Marcin Ciszak' },
+silly testEngine      { name: 'François de Metz' },
+silly testEngine      { name: 'Vinay Pulim' },
+silly testEngine      { name: 'nstielau' },
+silly testEngine      { name: 'Adam Wiggins' },
+silly testEngine      { name: 'entrinzikyl' },
+silly testEngine      { name: 'Jeremy Selier' },
+silly testEngine      { name: 'Ian Millington' },
+silly testEngine      { name: 'Public Keating' },
+silly testEngine      { name: 'andrewjstone' },
+silly testEngine      { name: 'Christopher Stott' },
+silly testEngine      { name: 'Corey Jewett' },
+silly testEngine      { name: 'brettkiefer' },
+silly testEngine      { name: 'Rob Holland' },
+silly testEngine      { name: 'Senmiao Liu' },
+silly testEngine      { name: 'heroic' },
+silly testEngine      { name: 'gitfy' },
+silly testEngine      { name: 'Andrew Stone' },
+silly testEngine      { name: 'John Le Drew' } ],
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/christkv/node-mongodb-native.git' },
+silly testEngine   bugs: 
+silly testEngine    { email: 'node-mongodb-native@googlegroups.com',
+silly testEngine      url: 'http://github.com/christkv/node-mongodb-native/issues' },
+silly testEngine   dependencies: { bson: '0.0.4' },
+silly testEngine   devDependencies: 
+silly testEngine    { dox: '0.2.0',
+silly testEngine      'uglify-js': '1.2.5',
+silly testEngine      ejs: '0.6.1',
+silly testEngine      nodeunit: '0.7.3',
+silly testEngine      github3: '>=0.3.0',
+silly testEngine      markdown: '0.3.1',
+silly testEngine      gleak: '0.2.3',
+silly testEngine      step: '0.0.5' },
+silly testEngine   config: { native: false },
+silly testEngine   main: './lib/mongodb/index',
+silly testEngine   directories: { lib: './lib/mongodb' },
+silly testEngine   engines: { node: '>=0.4.0' },
+silly testEngine   scripts: { test: 'make test_pure' },
+silly testEngine   licenses: 
+silly testEngine    [ { type: 'Apache License, Version 2.0',
+silly testEngine        url: 'http://www.apache.org/licenses/LICENSE-2.0' } ],
+silly testEngine   _id: 'mongodb@0.9.9-7',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.4.9',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /usr/local/lib/node_modules/mongoose/node_modules/mongodb/package.json
+verbose loadDefaults mongodb@0.9.9-7
+info preinstall mongodb@0.9.9-7
+verbose from cache /usr/local/lib/node_modules/mongoose/node_modules/mongodb/package.json
+verbose into /usr/local/lib/node_modules/mongoose/node_modules/mongodb [ 'bson@0.0.4' ]
+verbose cache add bson@0.0.4
+verbose cache add [ 'bson@0.0.4', null ]
+silly cache add: name, spec, args [ undefined, 'bson@0.0.4', [ 'bson@0.0.4', null ] ]
+verbose parsed url { pathname: 'bson@0.0.4', href: 'bson@0.0.4' }
+silly cache add: name, spec, args [ 'bson', '0.0.4', [ 'bson', '0.0.4' ] ]
+verbose parsed url { pathname: '0.0.4', href: '0.0.4' }
+info addNamed [ 'bson', '0.0.4' ]
+verbose addNamed [ '0.0.4', '0.0.4' ]
+verbose GET bson/0.0.4
+verbose raw, before any munging bson/0.0.4
+verbose url resolving [ 'https://registry.npmjs.org/', './bson/0.0.4' ]
+verbose url resolved https://registry.npmjs.org/bson/0.0.4
+verbose etag "AXP799H53HIMINUFWQRO2MY0D"
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"AXP799H53HIMINUFWQRO2MY0D"',
+silly get cb     date: 'Wed, 04 Apr 2012 23:55:29 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag bson/0.0.4 from cache
+verbose bin dist [ '0.4-ares1.7.4-ev4.4-openssl1.0.0e-v83.1.8.25-linux-3.0.0-12-virtual',
+verbose bin dist   { shasum: 'aecf32c44cc0c700bd3b74ec6fc3112cf4f4e671',
+verbose bin dist     tarball: 'http://registry.npmjs.org/bson/-/bson-0.0.4.tgz' } ]
+silly testEngine { name: 'bson',
+silly testEngine   description: 'A bson parser for node.js and the browser',
+silly testEngine   keywords: [ 'mongodb', 'bson', 'parser' ],
+silly testEngine   version: '0.0.4',
+silly testEngine   author: 
+silly testEngine    { name: 'Christian Amor Kvalheim',
+silly testEngine      email: 'christkv@gmail.com' },
+silly testEngine   contributors: [],
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git@github.com:christkv/bson.git' },
+silly testEngine   bugs: 
+silly testEngine    { email: 'node-mongodb-native@googlegroups.com',
+silly testEngine      url: 'https://github.com/christkv/bson/issues' },
+silly testEngine   devDependencies: { nodeunit: '0.7.3', gleak: '0.2.3' },
+silly testEngine   config: { native: false },
+silly testEngine   main: './lib/bson/index',
+silly testEngine   directories: { lib: './lib/bson' },
+silly testEngine   engines: { node: '>=0.4.12' },
+silly testEngine   scripts: { install: 'node install.js', test: 'make test' },
+silly testEngine   licenses: 
+silly testEngine    [ { type: 'Apache License, Version 2.0',
+silly testEngine        url: 'http://www.apache.org/licenses/LICENSE-2.0' } ],
+silly testEngine   _id: 'bson@0.0.4',
+silly testEngine   dependencies: {},
+silly testEngine   _engineSupported: false,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.4.9',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /home/oscar/.npm/bson/0.0.4/package/package.json
+verbose loadDefaults bson@0.0.4
+silly resolved [ { name: 'bson',
+silly resolved     description: 'A bson parser for node.js and the browser',
+silly resolved     keywords: [ 'mongodb', 'bson', 'parser' ],
+silly resolved     version: '0.0.4',
+silly resolved     author: 
+silly resolved      { name: 'Christian Amor Kvalheim',
+silly resolved        email: 'christkv@gmail.com' },
+silly resolved     contributors: [],
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git@github.com:christkv/bson.git' },
+silly resolved     bugs: 
+silly resolved      { email: 'node-mongodb-native@googlegroups.com',
+silly resolved        url: 'https://github.com/christkv/bson/issues' },
+silly resolved     devDependencies: { nodeunit: '0.7.3', gleak: '0.2.3' },
+silly resolved     config: { native: false },
+silly resolved     main: './lib/bson/index',
+silly resolved     directories: { lib: './lib/bson' },
+silly resolved     engines: { node: '>=0.4.12' },
+silly resolved     scripts: { install: 'node install.js', test: 'make test' },
+silly resolved     licenses: 
+silly resolved      [ { type: 'Apache License, Version 2.0',
+silly resolved          url: 'http://www.apache.org/licenses/LICENSE-2.0' } ],
+silly resolved     _id: 'bson@0.0.4',
+silly resolved     dependencies: {},
+silly resolved     _engineSupported: false,
+silly resolved     _npmVersion: '1.0.106',
+silly resolved     _nodeVersion: 'v0.4.9',
+silly resolved     _defaultsLoaded: true } ]
+info into /usr/local/lib/node_modules/mongoose/node_modules/mongodb bson@0.0.4
+info installOne bson@0.0.4
+verbose installOne cb bson@0.0.4
+verbose about to build /usr/local/lib/node_modules/mongoose/node_modules/mongodb
+ERR! error installing mongodb@0.9.9-7 Error: Unsupported
+ERR! error installing mongodb@0.9.9-7     at checkEngine (/usr/local/lib/node_modules/npm/lib/install.js:493:14)
+ERR! error installing mongodb@0.9.9-7     at Array.0 (/usr/local/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+ERR! error installing mongodb@0.9.9-7     at LOOP (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:13)
+ERR! error installing mongodb@0.9.9-7     at chain (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:20:4)
+ERR! error installing mongodb@0.9.9-7     at installOne_ (/usr/local/lib/node_modules/npm/lib/install.js:470:3)
+ERR! error installing mongodb@0.9.9-7     at installOne (/usr/local/lib/node_modules/npm/lib/install.js:411:3)
+ERR! error installing mongodb@0.9.9-7     at /usr/local/lib/node_modules/npm/lib/install.js:347:9
+ERR! error installing mongodb@0.9.9-7     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:54:35
+ERR! error installing mongodb@0.9.9-7     at Array.forEach (native)
+ERR! error installing mongodb@0.9.9-7     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:54:11
+info unbuild /usr/local/lib/node_modules/mongoose/node_modules/mongodb
+verbose from cache /usr/local/lib/node_modules/mongoose/node_modules/mongodb/package.json
+info preuninstall mongodb@0.9.9-7
+info uninstall mongodb@0.9.9-7
+verbose unbuild mongodb@0.9.9-7 [ false,
+verbose unbuild mongodb@0.9.9-7   '/usr/local/lib/node_modules',
+verbose unbuild mongodb@0.9.9-7   '/usr/local/lib/node_modules/mongoose/node_modules' ]
+info postuninstall mongodb@0.9.9-7
+verbose installOne cb mongodb@0.9.9-7
+verbose about to build /usr/local/lib/node_modules/mongoose
+ERR! error installing mongoose@2.5.13 Error: Unsupported
+ERR! error installing mongoose@2.5.13     at checkEngine (/usr/local/lib/node_modules/npm/lib/install.js:493:14)
+ERR! error installing mongoose@2.5.13     at Array.0 (/usr/local/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+ERR! error installing mongoose@2.5.13     at LOOP (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:13)
+ERR! error installing mongoose@2.5.13     at chain (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:20:4)
+ERR! error installing mongoose@2.5.13     at installOne_ (/usr/local/lib/node_modules/npm/lib/install.js:470:3)
+ERR! error installing mongoose@2.5.13     at installOne (/usr/local/lib/node_modules/npm/lib/install.js:411:3)
+ERR! error installing mongoose@2.5.13     at /usr/local/lib/node_modules/npm/lib/install.js:347:9
+ERR! error installing mongoose@2.5.13     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:54:35
+ERR! error installing mongoose@2.5.13     at Array.forEach (native)
+ERR! error installing mongoose@2.5.13     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:54:11
+info unbuild /usr/local/lib/node_modules/mongoose
+verbose from cache /usr/local/lib/node_modules/mongoose/package.json
+info preuninstall mongoose@2.5.13
+info uninstall mongoose@2.5.13
+verbose unbuild mongoose@2.5.13 [ true,
+verbose unbuild mongoose@2.5.13   '/usr/local/lib/node_modules',
+verbose unbuild mongoose@2.5.13   '/usr/local/lib/node_modules' ]
+info postuninstall mongoose@2.5.13
+verbose installOne cb mongoose@2.5.13
+ERR! Unsupported
+ERR! Not compatible with your version of node/npm: bson@0.0.4
+ERR! Required: {"node":">=0.4.12"}
+ERR! Actual:   {"npm":"1.0.106","node":"0.4.9"}
+ERR! 
+ERR! System Linux 3.0.0-12-virtual
+ERR! command "node" "/usr/local/bin/npm" "install" "-g" "mongoose"
+ERR! cwd /home/oscar/WurdeWebService/v1
+ERR! node -v v0.4.9
+ERR! npm -v 1.0.106
+ERR! code ENOTSUP
+verbose exit [ 1, true ]

@@ -1,0 +1,25 @@
+
+[1mRPC.test.js[22m
+✔ testRequest - ResponseEquality
+✔ testRequest - ResponseInequality
+✔ testRequest - ResponseNullId
+✔ testRequest - ResponseNegativeId
+✔ testRequest - ResponseNewIdSet
+[31m✖ testRequest - ResponsePostResponseNull[39m
+
+Assertion Message: [35m{"stack":"TypeError: object is not a function\n    at CALL_NON_FUNCTION (native)\n    at /home/paden/WurdeWebService/v1/lib/RPC.js:117:10\n    at Object.<anonymous> (/home/paden/WurdeWebService/v1/tests/RPC.test.js:105:25)\n    at Object.<anonymous> (/usr/local/lib/node_modules/nodeunit/lib/core.js:233:16)\n    at Object.<anonymous> (/usr/local/lib/node_modules/nodeunit/lib/core.js:233:16)\n    at /usr/local/lib/node_modules/nodeunit/lib/core.js:233:16\n    at Object.runTest (/usr/local/lib/node_modules/nodeunit/lib/core.js:69:9)\n    at /usr/local/lib/node_modules/nodeunit/lib/core.js:115:25\n    at /usr/local/lib/node_modules/nodeunit/deps/async.js:508:13\n    at /usr/local/lib/node_modules/nodeunit/deps/async.js:118:13","arguments":["object"],"type":"called_non_callable","message":"object is not a function"}[39m
+AssertionError: false == true
+    at Object.ok (/usr/local/lib/node_modules/nodeunit/lib/types.js:83:39)
+    at Object.<anonymous> (/home/paden/WurdeWebService/v1/tests/RPC.test.js:111:9)
+    at Object.<anonymous> (/usr/local/lib/node_modules/nodeunit/lib/core.js:233:16)
+    at Object.<anonymous> (/usr/local/lib/node_modules/nodeunit/lib/core.js:233:16)
+    at /usr/local/lib/node_modules/nodeunit/lib/core.js:233:16
+    at Object.runTest (/usr/local/lib/node_modules/nodeunit/lib/core.js:69:9)
+    at /usr/local/lib/node_modules/nodeunit/lib/core.js:115:25
+    at /usr/local/lib/node_modules/nodeunit/deps/async.js:508:13
+    at /usr/local/lib/node_modules/nodeunit/deps/async.js:118:13
+    at /usr/local/lib/node_modules/nodeunit/deps/async.js:129:25
+
+[31m✖ testNext - NextNullCallbacks[39m
+
+Assertion Message: [35m{"stack":"TypeError: Cannot call method 'slice' of null\n    at new Next (/home/paden/WurdeWebService/v1/lib/RPC.js:60:33)\n    at Object.<anonymous> (/home/paden/WurdeWebService/v1/tests/RPC.test.js:138:15)\n    at Object.<anonymous> (/usr/local/lib/node_modules/nodeunit/lib/core.js:233:16)\n    at Object.<anonymous> (/usr/local/lib/node_modules/nodeunit/lib/core.js:233:16)\n    at /usr/local/lib/node_modules/nodeunit/lib/core.js:233:16\n    at Object.runTest (/usr/local/lib/node_modules/nodeunit/lib/core.js:69:9)\n    at /usr/local/lib/node_modules/nodeunit/lib/core.js:115:25\n    at /usr/local/lib/node_modules/nodeunit/deps/async.js:508:13\n    at /usr/local/lib/node_modules/nodeunit/deps/async.js:118:13\n    at /usr/local/lib/node_modules/nodeunit/deps/async.js:134:9","arguments":["slice",null],"type":"non_object_property_call","message":"Cannot call method 'slice' of null"}[39m
